@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply  text-4xl
+    }
+    h2 {
+        @apply  text-2xl
+    }
+    h3 {
+        @apply  text-lg text-center
+    }
+    p {
+        @apply  text-base
+    }
+    h1,h2,h3{
+        @apply font-serif
+    }
+}
+
+.btn {
+    @apply w-1/2 h-12 text-black text-xl uppercase
+}
